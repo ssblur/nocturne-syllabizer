@@ -18,3 +18,13 @@ If desired, you can edit the syllable groups checked against by modifying the `v
 changing the `permissible_skips` kwarg in the check call (line 21), or generally mess around.
 
 This isn't well documented because I made it over lunch in a day and don't want to mess with it too much.
+
+# Output
+
+This script will output one CSV per verse with a line per possible match.
+
+![Screenshot of CSV](doc/screenshot1.png)
+
+In addition, console output will be highlighted with matching excerpts.
+
+![Screenshot of console](doc/screenshot2.png)
